@@ -25,7 +25,7 @@ if not WS_URL:
 
 class AuthenticationManager:
     """
-    AuthenticationManager is responsible for obtraining an access token and handling its subsequent refreshes.
+    AuthenticationManager is responsible for obtaining an access token and handling its subsequent refreshes.
 
     Args:
         outgoing_queue (asyncio.PriorityQueue): A queue to submit generated authentication or refresh messages to
